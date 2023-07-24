@@ -1,15 +1,24 @@
+import React from "react";
+import styled from "styled-components";
+
 export const Footer = ({autor}) => {
     return (
-        <>
-        {/* <!-- Footer --> */}
-            <footer className="sticky-footer bg-violet">
-                <div className="container my-auto">
-                    <div className="copyright text-center my-auto">
+        <StyledFooter>
+                <div className="ft-container">
+                    <div className="copyright">
                         <span>Copyright &copy; {autor}</span>
                     </div>
                 </div>
-            </footer>
-        {/* <!-- End Footer --> */}
-        </>
+        </StyledFooter>
     );
-};  
+};
+
+const StyledFooter = styled.footer`
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+`;

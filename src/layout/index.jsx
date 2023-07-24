@@ -1,12 +1,12 @@
 import { Footer } from "../components/Footer";
-import { Header } from "../components/Header";
+import Navbar from "../components/Navbar";
 import PropTypes from "prop-types";
 
 export const Layout = ({ children }) => {
   return (
     <div id="wrapper">
       <div id="content-wrapper" className="d-flex flex-column">
-        <Header />
+        <Navbar />
         <div id="content">{children}</div>
         <Footer autor={"Lisandro Palavecino 2023"}/>
       </div>
