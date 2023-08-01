@@ -4,6 +4,7 @@ import ContactForm from "./ContactForm";
 const Contact = () => {
   return (
     <div>
+      <p> .</p>
       <ContactForm />
     </div>
   );

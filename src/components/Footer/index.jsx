@@ -14,9 +14,8 @@ export const Footer = ({autor}) => {
 };
 
 const StyledFooter = styled.footer`
-  position: absolute;
-  bottom: 0;
-  padding: 1rem;
+  padding: 2.3rem;
+  font-size: 1.2rem;
   width: 100%;
   background-color: #333;
   color: white;

@@ -43,14 +43,14 @@ export default Navbar;
 
 const NavContainer = styled.nav`
   h2{
-    color: black;
+    color: white;
     font-weight: 400;
     span{
       font-weight: bold;
     }
   }
   padding: .5rem 3rem;
-  background-color: white;
+  background-color: #333;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -77,7 +77,7 @@ const NavContainer = styled.nav`
     letter-spacing: 1.8px;
   }
   .link-container h2:hover {
-    color: #80DAEB;
+    color: #AF7AC5;
   }
   .links{
     position: absolute;
@@ -92,7 +92,7 @@ const NavContainer = styled.nav`
       position: initial;
       margin: 0;
       a{
-        color: black;
+        color: white;
         text-decoration: none;
         margin: 30px;
         display:inline;
@@ -104,7 +104,7 @@ const NavContainer = styled.nav`
       }
       a:hover {
         font-size: 21px;
-        color: #80DAEB;
+        color: #AF7AC5;
       }
       display: block;
     }
