@@ -53,8 +53,16 @@ const ContactForm = () => {
             rows={4}
           />
           <div className="btn-container">
-          <Button variant="contained" type="submit" sx={{ mt: 2 }}>
+          <Button variant="contained" type="submit" sx={{ mt: 2, fontSize: "15px", fontWeight: "600" }}>
             Enviar
+          </Button>
+          </div>
+          <div className="cv-option">
+          <Button variant="contained" sx={{ mt: 2, backgroundColor: "#333", color: "white" }}>
+            descargar CV INGLES
+          </Button>
+          <Button variant="contained" sx={{ mt: 2, backgroundColor: "#333", color: "white"  }}>
+            descargar CV ESPAÑOL
           </Button>
           </div>
         </form>

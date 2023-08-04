@@ -12,7 +12,7 @@ const About = () => {
                     </p>
                 </div>
                 <div class="home-btn">
-                    <a href="/projects" class="btn btn--bg">My Projects</a>
+                    <a href="/projects" class="btn">My Projects</a>
                 </div>
             </div>
             <div className="home-socials">
@@ -23,7 +23,7 @@ const About = () => {
                 </div>
                 <div className="home-social">
                     <a href="https://github.com/LisandroP57" className="home-social-icon-link" rel="noreferrer" target="_blank">
-                        <img src="https://d33wubrfki0l68.cloudfront.net/ba3ef9fd9d500c55ba265adae6087ba71e05f5d9/d0067/assets/svg/twitter-dark.svg" className="home-social-icon" alt="GitHub" />
+                        <img src="https://d33wubrfki0l68.cloudfront.net/38469cf88d038b6ba3322c9fcb93a8f7167df4b9/cb0b9/assets/svg/github-dark.svg" className="home-social-icon" alt="GitHub" />
                     </a>
                 </div>
             </div>

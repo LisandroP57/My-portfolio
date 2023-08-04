@@ -15,9 +15,23 @@ code {
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .btn-container {
   display: flex;
   justify-content: center;
+}
+
+.cv-option {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cv-option button {
+  margin: 5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
 }

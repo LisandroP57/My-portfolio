@@ -42,6 +42,11 @@ function Navbar() {
 export default Navbar;
 
 const NavContainer = styled.nav`
+
+  html {
+    width: 100%;
+  }
+
   h2{
     color: white;
     font-weight: 400;
@@ -92,12 +97,16 @@ const NavContainer = styled.nav`
       position: initial;
       margin: 0;
       a{
+        @media(min-width: 962px){
+          margin: 30px;
+          letter-spacing: 1.5px;
+        }
         color: white;
         text-decoration: none;
-        margin: 30px;
+        margin: 7px;
         display:inline;
         text-transform: uppercase;
-        letter-spacing: 1.5px; 
+        letter-spacing: 1px;
         font-size: 18px;
         font-weight:600;
         transition: all 0.5s;
@@ -135,8 +144,8 @@ const NavContainer = styled.nav`
   }
 `
 const BgDiv = styled.div`
-  background-color: #222;
-  position: absolute;
+  background-color: #333;
+  position: fixed;
   top: -1000px;
   left: -1000px;
   width: 100%;
