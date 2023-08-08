@@ -24,14 +24,51 @@ html {
   justify-content: center;
 }
 
-.cv-option {
-  display: flex;
-  justify-content: space-around;
+@media(min-width: 320px){
+  .burguer-menu{
+    float: left;
+    list-style: none;
+  }
+  .burguer-menu a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 17px;
+    display: block;
+    color: #222;
+  }
+  .menu{
+    position: relative;
+  }
+  .submenu{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background: #fff;
+    right: -3.3rem;
+    display: none;
+    border-radius: 0 0 10px 10px;
+  }
+  .menu:hover .submenu{
+    display: block;
+  }
+  .submenu a:hover{
+      background: #f1f1f1;
+  }
+  .submenu a{
+      width: 100px;
+      padding: 8px 14px;
+  }
+  .menu img {
+    margin-right: 0rem;
+    width: 50px;
+    height: 50px;
+  }
 }
-
-.cv-option button {
-  margin: 5rem;
-  padding: 1rem;
-  font-size: 1rem;
-  font-weight: 600;
+@media(min-width: 768px){
+  .burguer-menu{
+    display: none;
+  }
 }

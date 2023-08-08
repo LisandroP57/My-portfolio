@@ -31,7 +31,7 @@ const Skills = () => {
         </div>
 
         <div className="skill-card">
-            <div className="skill-card__header" style={{ backgroundColor: '#f7df1e' }}>
+            <div className="skill-card__header" style={{ backgroundColor: '#f0DB4F'}}>
             <img
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 alt="Logo JS"
@@ -85,13 +85,26 @@ const Skills = () => {
       <div className="skill-card">
         <div className="skill-card__header" style={{ backgroundColor: '#4a5bb0' }}>
           <img
-            src="https://assets.stickpng.com/images/58482ee4cef1014c0b5e4a75.png"
+            src="https://sequelize.org/img/logo.svg"
             alt="Logo Sequelize"
             className="skill-card__icon"
           />
         </div>
         <div className="skill-card__body">
           <h2 className="skill-card__title">Sequelize</h2>
+        </div>
+      </div>
+
+      <div className="skill-card">
+        <div className="skill-card__header" style={{ backgroundColor: '#la5tb5' }}>
+          <img
+            src="https://www.svgrepo.com/show/354113/nextjs-icon.svg"
+            alt="Logo Sequelize"
+            className="skill-card__icon"
+          />
+        </div>
+        <div className="skill-card__body">
+          <h2 className="skill-card__title">Next JS</h2>
         </div>
       </div>
 

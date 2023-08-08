@@ -14,10 +14,9 @@ export const Footer = ({autor}) => {
 };
 
 const StyledFooter = styled.footer`
-  padding: 2.3rem;
-  font-size: 1.2rem;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  text-align: center;
+    padding: 2.3rem;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
 `;

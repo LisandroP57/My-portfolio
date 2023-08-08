@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { TextField, Button, Typography, Box } from "@mui/material";
+import "./contactmodule.css"
 
 const ContactForm = () => {
   const [name, setName] = useState("");
@@ -8,20 +9,21 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    //
   };
 
   return (
     <Box
+      className="contact-form-container"
       sx={{
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        height: "100vh",
       }}
     >
-      <Box sx={{ maxWidth: 600, mx: "auto", p: 2 }}>
-        <Typography variant="h4" align="center" mb={2}>
+      <Box
+        className="contact-form"
+        sx={{ mx: "auto", p: 2 }}>
+        <Typography variant="h3" align="center" mb={2}>
           Contactemonos!
         </Typography>
         <form onSubmit={handleSubmit}>
@@ -58,12 +60,16 @@ const ContactForm = () => {
           </Button>
           </div>
           <div className="cv-option">
-          <Button variant="contained" sx={{ mt: 2, backgroundColor: "#333", color: "white" }}>
-            descargar CV INGLES
-          </Button>
-          <Button variant="contained" sx={{ mt: 2, backgroundColor: "#333", color: "white"  }}>
-            descargar CV ESPAÑOL
-          </Button>
+            <a href="https://drive.google.com/file/d/1WQmnXuLk6_46Gy29ayFfjAfM8qLFonpU/view?usp=drive_link" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
+              <Button variant="contained" sx={{ mt: 2, backgroundColor: "#333", color: "white" }}>
+                descargar CV ESPAÑOL
+              </Button>
+            </a>
+            <a href="https://drive.google.com/file/d/1JrhcQ7zzeDd1aYXLAWSVmOFXI3FstEWR/view?usp=drive_link" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
+              <Button variant="contained" sx={{ mt: 2, backgroundColor: "#333", color: "white" }}>
+                descargar CV INGLES
+              </Button>
+            </a>
           </div>
         </form>
       </Box>

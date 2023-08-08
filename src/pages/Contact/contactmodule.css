@@ -1,0 +1,30 @@
+.contact-form-container {
+    height: unset;
+  }
+  @media (min-width: 320px) {
+    .contact-form-container {
+        height: 100vh;
+    }
+    .contact-form {
+        width: 300px;
+    }
+    .cv-option {
+        display: flex;
+        justify-content: space-around;
+    }
+    .cv-option button {
+        margin: 1rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .contact-form {
+        width: 550px;
+    }
+    .cv-option button {
+        margin: 5rem;
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+  }

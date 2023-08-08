@@ -1,22 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import styled from 'styled-components';
-import BurguerButton from './BurguerButton';
 import avatar from "../../assets/avatar.png";
 
 function Navbar() {
-  const [clicked, setClicked] = useState(false);
-
-  const handleClick = () => {
-    setClicked(!clicked);
-  };
-
-  const handleLinkClick = () => {
-    if (window.innerWidth < 768) {
-      setClicked(false);
-    }
-  };
-
   return (
     <>
       <NavContainer>
@@ -24,16 +11,25 @@ function Navbar() {
           <img src={avatar} alt="avatar" className="avatar" />
           <h2>Lisandro Palavecino</h2>
         </Link>
-        <div className={`links ${clicked ? 'active' : ''}`}>
-          <Link to="/" onClick={handleLinkClick}>About me</Link>
-          <Link to="/projects" onClick={handleLinkClick}>Projects</Link>
-          <Link to="/skills" onClick={handleLinkClick}>Skills</Link>
-          <Link to="/contact" onClick={handleLinkClick}>Contact</Link>
+        <div className='links'>
+          <Link to="/">About me</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/skills">Skills</Link>
+          <Link to="/contact">Contact</Link>
         </div>
-        <div className='burguer'>
-          <BurguerButton clicked={clicked} handleClick={handleClick} />
+        <div class="burguer-menu">
+            <div class="navigation">
+                <div class="menu">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5461/5461272.png"/>
+                    <div class="submenu">
+                        <Link to="/">About</Link><hr></hr>
+                        <Link to="/projects">Projects</Link><hr></hr>
+                        <Link to="/skills">Skills</Link><hr></hr>
+                        <Link to="/contact">Contact</Link><hr></hr>
+                    </div>
+                </div>
+            </div>
         </div>
-        <BgDiv className={`initial ${clicked ? ' active' : ''}`}></BgDiv>
       </NavContainer>
     </>
   );
@@ -103,7 +99,7 @@ const NavContainer = styled.nav`
         }
         color: white;
         text-decoration: none;
-        margin: 7px;
+        margin: 5px;
         display:inline;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -129,35 +125,11 @@ const NavContainer = styled.nav`
     right: 0;
     text-align: center;
     a{
-      font-size: 2rem;
+      font-size: 3rem;
       font-weight: 600;
       font-variant: all-petite-caps;
       margin-top: 1rem;
       color: white;
     }
-  }
-
-  .burguer{
-    @media(min-width: 768px){
-      display: none;
-    }
-  }
-`
-const BgDiv = styled.div`
-  background-color: #333;
-  position: fixed;
-  top: -1000px;
-  left: -1000px;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  transition: all .6s ease ;
-  
-  &.active{
-    border-radius: 0 0 80% 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
   }
 `

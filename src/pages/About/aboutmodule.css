@@ -1,94 +1,103 @@
-*, ::after, ::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    font-family: inherit;
+@media (min-width: 320px) {
+    .about-section {
+        height: 100vh;
+        color: #fff;
+        background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url('../../assets/background.jpg');
+        background-position: center;
+    }
+    .about_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+    .heading-primary {
+        font-size: 4rem;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        color: #111;
+        font-weight: 700;
+    }
+    .about_info {
+        margin: 0 2rem;
+        max-width: 50rem;
+    }
+    .text-primary {
+        color: #333;
+        font-size: 2.2rem;
+        text-align: center;
+        width: 100%;
+        line-height: 1.6;
+    }
+    .about-socials {
+        display: none;
+    }
+
+    /* BTN */
+    .about-btn {
+        text-align: center;
+        transition: transform .3s;
+    }
+    .about-btn:hover {
+        transform: scale(1.1);
+    }
+    .btn {
+        padding: 1rem 3rem;
+        margin: 1rem;
+        font-size: 1.5rem;
+        background: #80DAEB;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 }
 
-.home-section {
-    color: #fff;
-    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url('../../assets/background.jpg');
-    background-position: center;
-    height: 100vh;
-}
-.home_content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    max-width: 90rem;
-    width: 92%;
-}
-.heading-primary {
-    font-size: 4rem;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    color: #111;
-    font-weight: 700;
-}
-.home_info {
-    margin: 3rem auto 0 auto;
-    max-width: 80rem;
-}
-.text-primary {
-    color: #333;
-    font-size: 2.2rem;
-    text-align: center;
-    width: 100%;
-    line-height: 1.6;
+@media (min-width: 768px) {
+    .about_info {
+        margin: 3rem 10rem;
+        max-width: 80rem;
+    }
+    /* about socials */
+    .about-socials {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #fff;
+        box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
+        padding: 0.3rem;
+    }
+
+    .about-social-icon-link {
+        width: 100%;
+        display: block;
+        transition: background .3s;
+        border-radius: 5px;
+    }
+
+    .about-social-icon {
+        padding: 0.5rem;
+        width: 50px;
+        transition: 1s ease;
+    }
+
+    .about-social-icon:hover {
+        transform:rotate(10deg);
+    }
 }
 
-/* BTN */
-.home-btn {
-    margin-top: 5rem;
-    text-align: center;
-    transition: transform .3s;
-}
-.home-btn:hover {
-    transform: scale(1.1);
-}
-.btn {
-    padding: 1rem 3rem;
-    margin: 1rem;
-    font-size: 1.5rem;
-    background: #80DAEB;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Home socials */
-.home-socials {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #fff;
-    box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
-    padding: 0.3rem;
-}
-
-.home-social-icon-link {
-    width: 100%;
-    display: block;
-    transition: background .3s;
-    border-radius: 5px;
-}
-
-.home-social-icon {
-    padding: 0.5rem;
-    width: 50px;
-    transition: 1s ease;
-}
-
-.home-social-icon:hover {
-    transform:rotate(10deg);
+@media (min-width: 1024px) {
+    .about-section {
+        height: 90vh;
+    }
 }
