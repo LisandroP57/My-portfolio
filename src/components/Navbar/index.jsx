@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import avatar from "../../assets/avatar.png";
@@ -20,7 +20,7 @@ function Navbar() {
         <div class="burguer-menu">
             <div class="navigation">
                 <div class="menu">
-                    <img src="https://cdn-icons-png.flaticon.com/512/5461/5461272.png"/>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5461/5461272.png" alt='burguermenu'/>
                     <div class="submenu">
                         <Link to="/">About</Link><hr></hr>
                         <Link to="/projects">Projects</Link><hr></hr>

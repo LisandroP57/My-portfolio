@@ -26,10 +26,10 @@ const Projects = () => {
                 Cuidate es mi primer app full-stack realizada para Digital House. Precargando una BD con datos de una API para devolverlos con mi propia API, con CRUD completo y filtrado de datos en el front-end.
               </p>
               <div className="project-btns">
-                <a className="btn" href="/project-1" target="_blank">
+                <a className="btn" href="/project-1" target="_blank" rel="noopener noreferrer">
                   Acceder
                 </a>
-                <a className="btn" href="https://github.com/LisandroP57/c19-Grupo-3-Cuidate" target="_blank">
+                <a className="btn" href="https://github.com/LisandroP57/c19-Grupo-3-Cuidate" target="_blank" rel="noopener noreferrer">
                   Repositorio
                 </a>
               </div>
@@ -51,10 +51,10 @@ const Projects = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusantium molestias repellendus sit cum nulla, id commodi reiciendis in nostrum deleniti consequuntur non corrupti quod mollitia quisquam nihil dignissimos tenetur?
               </p>
               <div className="project-btns">
-                <a className="btn" href="/project-1" target="_blank">
+                <a className="btn" href="/project-1" target="_blank" rel="noopener noreferrer">
                   Acceder
                 </a>
-                <a className="btn" href="https://github.com/LisandroP57/React-dashboard" target="_blank">
+                <a className="btn" href="https://github.com/LisandroP57/React-dashboard" target="_blank" rel="noopener noreferrer">
                   Repositorio
                 </a>
               </div>
@@ -76,10 +76,10 @@ const Projects = () => {
                 Re-creé el frontend de la aplicación web oficial de Boreal Coffee porque me atrajo su hermosa interfaz de usuario. Fue una gran experiencia para mí construir todo el frontend.
               </p>
               <div className="project-btns">
-                <a className="btn" href="/project-1" target="_blank">
+                <a className="btn" href="/project-1" target="_blank" rel="noopener noreferrer">
                   Acceder
                 </a>
-                <a className="btn" href="https://github.com/LisandroP57/Weather-App" target="_blank">
+                <a className="btn" href="https://github.com/LisandroP57/Weather-App" target="_blank" rel="noopener noreferrer">
                   Repositorio
                 </a>
               </div>
@@ -101,7 +101,7 @@ const Projects = () => {
                 Desarrollo de apis propias para proyecto de e-commerce
               </p>
               <div className="project-btns">
-                <a className="btn" href="https://github.com/LisandroP57/My-Ecommerce-APIs" target="_blank">
+                <a className="btn" href="https://github.com/LisandroP57/My-Ecommerce-APIs" target="_blank" rel="noopener noreferrer">
                   Repositorio
                 </a>
               </div>
@@ -123,10 +123,10 @@ const Projects = () => {
                 Calculadora basica con funcionalidades, realizada con react.
               </p>
               <div className="project-btns">
-                <a className="btn" href="/project-1" target="_blank">
+                <a className="btn" href="/project-1" target="_blank" rel="noopener noreferrer">
                   Acceder
                 </a>
-                <a className="btn" href="https://github.com/LisandroP57/My-Ecommerce-APIs" target="_blank">
+                <a className="btn" href="https://github.com/LisandroP57/My-Ecommerce-APIs" target="_blank" rel="noopener noreferrer">
                   Repositorio
                 </a>
               </div>
@@ -147,10 +147,10 @@ const Projects = () => {
               <p className="project-description">
               </p>
               <div className="project-btns">
-                <a className="btn" href="/project-1" target="_blank">
+                <a className="btn" href="/project-1" target="_blank" rel="noopener noreferrer">
                   Proximamente
                 </a>
-{/*                 <a className="btn" href="/project-2" target="_blank">
+{/*                 <a className="btn" href="/project-2" target="_blank" rel="noopener noreferrer">
                   Repositorio
                 </a> */}
               </div>

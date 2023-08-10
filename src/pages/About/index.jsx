@@ -8,7 +8,7 @@ const About = () => {
                 <div class="about_info">
                     <h1 class="heading-primary">Hola, soy Lisandro! Programador Web FullStack</h1>
                     <p class="text-primary">
-                        Actualmente me encuentro explorando el mundo IT, resido en Buenos Aires, Argentina,.
+                        Actualmente me encuentro explorando el mundo IT, resido en Buenos Aires, Argentina.
                         Me fascina la programacion y por esto comence a intruducirme en este mundo de forma autodidacta, hasta mas tarde obtener una beca de Digital House,
                         donde termine de consolidar mis conocimientos previos, que mas tarde me servirian para iniciar mi carrera y aprendizaje personal en este maravilloso mundo!
                         Gracias por pasar!
