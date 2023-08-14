@@ -66,10 +66,11 @@
   }
   
   .project-description {
+    font-weight: 600;
     font-size: 1.8rem;
     color: #666;
     max-width: 60rem;
-    line-height: 1.7;
+    line-height: 1.6;
     margin-bottom: 3rem;
   }
   

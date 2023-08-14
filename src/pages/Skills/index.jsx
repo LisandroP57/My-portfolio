@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './skillsmodule.css';
 
 const Skills = () => {
+
+  useEffect(() => {
+    document.title = "Lisandro Palavecino | Habilidades";
+  }, []);
+
   return (
     <div className='div-primary'>
         <div className="skill-card">

@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './aboutmodule.css';
 
 const About = () => {
+
+    useEffect(() => {
+        document.title = "Lisandro Palavecino | Sobre mi";
+      }, []);
+    
     return (
         <section class="about-section">
             <div class="about_content">

@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./proyectsmodule.css";
 
 const Projects = () => {
+
+  useEffect(() => {
+      document.title = "Lisandro Palavecino | Proyectos";
+    }, []);
+  
   return (
     <section id="projects" className="projects-section">
       <div className="projects-container">
@@ -21,9 +26,9 @@ const Projects = () => {
               />
             </div>
             <div className="project-info">
-              <h3 className="project-title">Cuidate!</h3>
+              <h3 className="project-title">Cuidate! E-commerce Full-Stack con Características Completas</h3>
               <p className="project-description">
-                Cuidate es mi primer app full-stack realizada para Digital House. Precargando una BD con datos de una API para devolverlos con mi propia API, con CRUD completo y filtrado de datos en el front-end.
+                Explora mi primera aplicación full-stack, "Cuidate", una creación destacada desarrollada durante mi experiencia en Digital House. Este e-commerce integral ocupa todas las etapas, incluyendo registro, inicio de sesión, carrito de compras, productos, categorías, funcionalidad de búsqueda, detalles de productos y un robusto panel de administración. Construida utilizando tecnologías esenciales como HTML, CSS y JavaScript, la aplicación aprovecha la potencia de SQL y Sequelize para la gestión de datos, respaldada por Node.js para la implementación del servidor. Además, se ha integrado un sistema de APIs personalizadas que interactúan con una base de datos exclusiva para una experiencia única y completa.
               </p>
               <div className="project-btns">
                 <a className="btn" href="/project-1" target="_blank" rel="noopener noreferrer">
@@ -96,9 +101,9 @@ const Projects = () => {
               />
             </div>
             <div className="project-info">
-              <h3 className="project-title">My e-commerce APIs</h3>
+              <h3 className="project-title">Plataforma de APIs E-commerce en Node.js: Gestión Completa y Eficiente de Datos</h3>
               <p className="project-description">
-                Desarrollo de apis propias para proyecto de e-commerce
+              Este proyecto ejemplifica el desarrollo de una plataforma de APIs sólida y adaptable creada en Node.js, creada para satisfacer las necesidades precisas del mundo e-commerce. Esta plataforma ofrece un control sobre la gestión de datos, incluyendo funciones vitales como creación, edición, eliminación y listado por ID de productos y usuarios. Además, incluye una serie de características para el manejo de un carrito de compras funcional, junto con opciones de autenticación y registro de usuarios.
               </p>
               <div className="project-btns">
                 <a className="btn" href="https://github.com/LisandroP57/My-Ecommerce-APIs" target="_blank" rel="noopener noreferrer">
@@ -118,12 +123,12 @@ const Projects = () => {
               />
             </div>
             <div className="project-info">
-              <h3 className="project-title">Calculator React App</h3>
+              <h3 className="project-title">Calculadora Interactiva en React - CalculApp!</h3>
               <p className="project-description">
-                Calculadora basica con funcionalidades, realizada con react.
+                Este proyecto demuestra la implementación de una calculadora interactiva con funcionalidades avanzadas utilizando la biblioteca React. Esta calculadora destaca por su organización eficiente en la separación de componentes y la aplicación de los modernos conceptos de desarrollo en React como los hooks.
               </p>
               <div className="project-btns">
-                <a className="btn" href="/project-1" target="_blank" rel="noopener noreferrer">
+                <a className="btn" href="https://palavecino-calculapp.netlify.app/" target="_blank" rel="noopener noreferrer">
                   Acceder
                 </a>
                 <a className="btn" href="https://github.com/LisandroP57/My-Ecommerce-APIs" target="_blank" rel="noopener noreferrer">

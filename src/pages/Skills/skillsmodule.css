@@ -48,7 +48,7 @@
 
 @media only screen and (min-width: 768px) {
   .skill-card {
-    width: calc(33.33% - 15rem);
+    width: calc(34.33% - 12rem);
   }
 
   .div-primary {

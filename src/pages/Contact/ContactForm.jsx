@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { TextField, Button, Typography, Box } from "@mui/material";
 import "./contactmodule.css"
 
@@ -10,6 +10,10 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
+
+  useEffect(() => {
+    document.title = "Lisandro Palavecino | Contacto";
+  }, []);
 
   return (
     <Box
