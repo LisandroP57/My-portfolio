@@ -31,7 +31,7 @@ const Projects = () => {
                 Explora mi primera aplicación full-stack, "Cuidate", una creación destacada desarrollada durante mi experiencia en Digital House. Este e-commerce integral ocupa todas las etapas, incluyendo registro, inicio de sesión, carrito de compras, productos, categorías, funcionalidad de búsqueda, detalles de productos y un robusto panel de administración. Construida utilizando tecnologías esenciales como HTML, CSS y JavaScript, la aplicación aprovecha la potencia de SQL y Sequelize para la gestión de datos, respaldada por Node.js para la implementación del servidor. Además, se ha integrado un sistema de APIs personalizadas que interactúan con una base de datos exclusiva para una experiencia única y completa.
               </p>
               <div className="project-btns">
-                <a className="btn" href="/project-1" target="_blank" rel="noopener noreferrer">
+                <a className="btn" href="https://cuidate-ecommerce.netlify.app/" target="_blank" rel="noopener noreferrer">
                   Acceder
                 </a>
                 <a className="btn" href="https://github.com/LisandroP57/c19-Grupo-3-Cuidate" target="_blank" rel="noopener noreferrer">
@@ -57,7 +57,7 @@ const Projects = () => {
 Es esencial recalcar que todos los datos se encuentran gestionados por una API de mi autoría. Esta API interactúa de manera integral para administrar todos los datos esenciales en mi base de datos, la cual está orientada hacia un modelo E-commerce.
               </p>
               <div className="project-btns">
-                <a className="btn" href="/project-1" target="_blank" rel="noopener noreferrer">
+                <a className="btn" href="https://palavecino-dashboard-ecommerce.netlify.app/" target="_blank" rel="noopener noreferrer">
                   Acceder
                 </a>
                 <a className="btn" href="https://github.com/LisandroP57/React-dashboard" target="_blank" rel="noopener noreferrer">
@@ -153,7 +153,7 @@ Es esencial recalcar que todos los datos se encuentran gestionados por una API d
               <p className="project-description">
               </p>
               <div className="project-btns">
-                <a className="btn" href="/project-1" target="_blank" rel="noopener noreferrer">
+                <a className="btn" href="#project-movies" rel="noopener noreferrer">
                   Proximamente
                 </a>
 {/*                 <a className="btn" href="/project-2" target="_blank" rel="noopener noreferrer">
