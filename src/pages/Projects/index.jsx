@@ -53,7 +53,8 @@ const Projects = () => {
             <div className="project-info">
               <h3 className="project-title">React Dashboard</h3>
               <p className="project-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusantium molestias repellendus sit cum nulla, id commodi reiciendis in nostrum deleniti consequuntur non corrupti quod mollitia quisquam nihil dignissimos tenetur?
+              Este repositorio cuenta con un avanzado panel de administración tipo dashboard. Aca, se brinda una visualización gráfica de nuestros porcentajes a través de gráficos estadísticos, así como un completo listado de productos como de usuarios, detallando información unitaria. Además, se utiliza la librería Formik para gestionar de manera eficiente el proceso de inicio de sesión y registro de usuarios.
+Es esencial recalcar que todos los datos se encuentran gestionados por una API de mi autoría. Esta API interactúa de manera integral para administrar todos los datos esenciales en mi base de datos, la cual está orientada hacia un modelo E-commerce.
               </p>
               <div className="project-btns">
                 <a className="btn" href="/project-1" target="_blank" rel="noopener noreferrer">
@@ -78,10 +79,10 @@ const Projects = () => {
             <div className="project-info">
               <h3 className="project-title">Weather App</h3>
               <p className="project-description">
-                Re-creé el frontend de la aplicación web oficial de Boreal Coffee porque me atrajo su hermosa interfaz de usuario. Fue una gran experiencia para mí construir todo el frontend.
+                Aplicacion de clima online realizado en react, donde se puede ver el clima filtrandolo por ciudades, Absorbiendo APIS.
               </p>
               <div className="project-btns">
-                <a className="btn" href="/project-1" target="_blank" rel="noopener noreferrer">
+                <a className="btn" href="https://palavecino-weatherapp.netlify.app/" target="_blank" rel="noopener noreferrer">
                   Acceder
                 </a>
                 <a className="btn" href="https://github.com/LisandroP57/Weather-App" target="_blank" rel="noopener noreferrer">
