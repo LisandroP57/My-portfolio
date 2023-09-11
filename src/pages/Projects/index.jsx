@@ -34,7 +34,7 @@ const Projects = () => {
                 {/* <a className="btn" href="https://cuidate-ecommerce.netlify.app/" target="_blank" rel="noopener noreferrer">
                   Acceder
                 </a> */}
-                <a className="btn" href="#cuidate-ecommerce" rel="noopener noreferrer">
+                <a className="btn" href="#" rel="noopener noreferrer">
                   En curso
                 </a>
                 <a className="btn" href="https://github.com/LisandroP57/c19-Grupo-3-Cuidate" target="_blank" rel="noopener noreferrer">
@@ -63,7 +63,7 @@ Es esencial recalcar que todos los datos se encuentran gestionados por una API d
                 {/* <a className="btn" href="https://palavecino-dashboard-ecommerce.netlify.app/" target="_blank" rel="noopener noreferrer">
                   Acceder
                 </a> */}
-                <a className="btn" href="#react-dashboard" rel="noopener noreferrer">
+                <a className="btn" href="#" rel="noopener noreferrer">
                   En curso
                 </a>
                 <a className="btn" href="https://github.com/LisandroP57/React-dashboard" target="_blank" rel="noopener noreferrer">
