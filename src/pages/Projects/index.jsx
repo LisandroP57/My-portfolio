@@ -34,9 +34,9 @@ const Projects = () => {
                 {/* <a className="btn" href="https://cuidate-ecommerce.netlify.app/" target="_blank" rel="noopener noreferrer">
                   Acceder
                 </a> */}
-                <a className="btn" href="javascript:void(0)" rel="noopener noreferrer">
+                <p className="btn" rel="noopener noreferrer">
                   En curso
-                </a>
+                </p>
                 <a className="btn" href="https://github.com/LisandroP57/c19-Grupo-3-Cuidate" target="_blank" rel="noopener noreferrer">
                   Repositorio
                 </a>
@@ -63,9 +63,9 @@ Es esencial recalcar que todos los datos se encuentran gestionados por una API d
                 {/* <a className="btn" href="https://palavecino-dashboard-ecommerce.netlify.app/" target="_blank" rel="noopener noreferrer">
                   Acceder
                 </a> */}
-                <a className="btn" href="javascript:void(0)" rel="noopener noreferrer">
+                <p className="btn" rel="noopener noreferrer">
                   En curso
-                </a>
+                </p>
                 <a className="btn" href="https://github.com/LisandroP57/React-dashboard" target="_blank" rel="noopener noreferrer">
                   Repositorio
                 </a>
@@ -91,9 +91,9 @@ Es esencial recalcar que todos los datos se encuentran gestionados por una API d
                 {/* <a className="btn" href="https://palavecino-weatherapp.netlify.app/" target="_blank" rel="noopener noreferrer">
                   Acceder
                 </a> */}
-                <a className="btn" rel="noopener noreferrer">
+                <p className="btn" rel="noopener noreferrer">
                   proximamente
-                </a>
+                </p>
                 <a className="btn" href="https://github.com/LisandroP57/Weather-App" target="_blank" rel="noopener noreferrer">
                   Repositorio
                 </a>
