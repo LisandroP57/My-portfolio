@@ -35,7 +35,7 @@ const Projects = () => {
                   Acceder
                 </a> */}
                 <a className="btn" href="#cuidate-ecommerce" rel="noopener noreferrer">
-                  Terminando Deploy
+                  En curso
                 </a>
                 <a className="btn" href="https://github.com/LisandroP57/c19-Grupo-3-Cuidate" target="_blank" rel="noopener noreferrer">
                   Repositorio
@@ -64,7 +64,7 @@ Es esencial recalcar que todos los datos se encuentran gestionados por una API d
                   Acceder
                 </a> */}
                 <a className="btn" href="#react-dashboard" rel="noopener noreferrer">
-                  terminando deploy
+                  En curso
                 </a>
                 <a className="btn" href="https://github.com/LisandroP57/React-dashboard" target="_blank" rel="noopener noreferrer">
                   Repositorio
