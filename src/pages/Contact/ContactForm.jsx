@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
+/* import React, { useState, useEffect } from "react"; */
 /* import { TextField, Button, Typography, Box } from "@mui/material"; */
 import { Button, Typography, Box } from "@mui/material";
 import "./contactmodule.css"
@@ -8,9 +9,9 @@ const ContactForm = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
  */
-  const handleSubmit = (e) => {
+/*   const handleSubmit = (e) => {
     e.preventDefault();
-  };
+  }; */
 
   useEffect(() => {
     document.title = "Lisandro Palavecino | Contacto";
