@@ -28,9 +28,21 @@ const ContactForm = () => {
         className="contact-form"
         sx={{ mx: "auto", p: 2 }}>
         <Typography variant="h3" align="center" mb={2}>
-          Contactemonos!
+          Mi curriculum !
         </Typography>
-        <form onSubmit={handleSubmit}>
+        <div className="cv-option">
+            <a href="https://drive.google.com/file/d/1WQmnXuLk6_46Gy29ayFfjAfM8qLFonpU/view?usp=drive_link" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
+              <Button variant="contained" sx={{ mt: 2, backgroundColor: "#333", color: "white" }}>
+                descargar CV ESPAÑOL
+              </Button>
+            </a>
+            <a href="https://drive.google.com/file/d/1JrhcQ7zzeDd1aYXLAWSVmOFXI3FstEWR/view?usp=drive_link" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
+              <Button variant="contained" sx={{ mt: 2, backgroundColor: "#333", color: "white" }}>
+                descargar CV INGLES
+              </Button>
+            </a>
+          </div>
+        {/* <form onSubmit={handleSubmit}>
           <TextField
             fullWidth
             label="Nombre"
@@ -75,7 +87,7 @@ const ContactForm = () => {
               </Button>
             </a>
           </div>
-        </form>
+        </form> */}
       </Box>
     </Box>
   );
