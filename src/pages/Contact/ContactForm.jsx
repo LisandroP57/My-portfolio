@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { TextField, Button, Typography, Box } from "@mui/material";
+/* import { TextField, Button, Typography, Box } from "@mui/material"; */
+import { Button, Typography, Box } from "@mui/material";
 import "./contactmodule.css"
 
 const ContactForm = () => {
-  const [name, setName] = useState("");
+/*   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
+ */
   const handleSubmit = (e) => {
     e.preventDefault();
   };
