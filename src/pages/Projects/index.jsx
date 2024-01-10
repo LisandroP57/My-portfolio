@@ -16,6 +16,29 @@ const Projects = () => {
         </h2>
 
         <div className="projects-content">
+
+        <div className="project">
+              <div className="project-image">
+                <img
+                  src="https://img.icons8.com/project"
+                  alt="Digital House Proyects"
+                  className="project-image__img"
+                  loading="lazy"
+                />
+              </div>
+              <div className="project-info">
+                <h3 className="project-title">Digital House Proyects</h3>
+                <p className="project-description">
+                Trabajé tanto grupal como individualmente en proyectos de Desarrollo Web que fueron aprobados exitosamente durante mis estudios en Digital House!
+                </p>
+                <div className="project-btns">
+                  <a className="btn" href="https://github.com/LisandroP57/Digital-House-2022-2023" target="_blank" rel="noopener noreferrer">
+                    Acceder
+                  </a>
+                </div>
+              </div>
+          </div>
+
           <div className="project">
             <div className="project-image">
               <img
@@ -74,31 +97,31 @@ Es esencial recalcar que todos los datos se encuentran gestionados por una API d
           </div>
 
           <div className="project">
-            <div className="project-image">
-              <img
-                src="https://img.icons8.com/?size=512&id=RyvldWcnzX2L&format=png"
-                alt="Weather App"
-                className="project-image__img"
-                loading="lazy"
-              />
-            </div>
-            <div className="project-info">
-              <h3 className="project-title">Weather App</h3>
-              <p className="project-description">
-                Aplicacion de clima online realizado en react, donde se puede ver el clima filtrandolo por ciudades, Absorbiendo APIS.
-              </p>
-              <div className="project-btns">
-                {/* <a className="btn" href="https://palavecino-weatherapp.netlify.app/" target="_blank" rel="noopener noreferrer">
-                  Acceder
-                </a> */}
-                <p className="btn" rel="noopener noreferrer">
-                  proximamente
-                </p>
-                <a className="btn" href="https://github.com/LisandroP57/Weather-App" target="_blank" rel="noopener noreferrer">
-                  Repositorio
-                </a>
+              <div className="project-image">
+                <img
+                  src="https://img.icons8.com/?size=512&id=RyvldWcnzX2L&format=png"
+                  alt="Weather App"
+                  className="project-image__img"
+                  loading="lazy"
+                />
               </div>
-            </div>
+              <div className="project-info">
+                <h3 className="project-title">Weather App</h3>
+                <p className="project-description">
+                  Aplicacion de clima online realizado en react, donde se puede ver el clima filtrandolo por ciudades, Absorbiendo APIS.
+                </p>
+                <div className="project-btns">
+                  {/* <a className="btn" href="https://palavecino-weatherapp.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    Acceder
+                  </a> */}
+                  <p className="btn" rel="noopener noreferrer">
+                    proximamente
+                  </p>
+                  <a className="btn" href="https://github.com/LisandroP57/Weather-App" target="_blank" rel="noopener noreferrer">
+                    Repositorio
+                  </a>
+                </div>
+              </div>
           </div>
 
           <div className="project">
@@ -148,7 +171,7 @@ Es esencial recalcar que todos los datos se encuentran gestionados por una API d
             </div>
           </div>
 
-          <div className="project">
+{/*           <div className="project">
             <div className="project-image">
               <img
                 src="https://img.icons8.com/?size=512&id=2791&format=png"
@@ -165,12 +188,12 @@ Es esencial recalcar que todos los datos se encuentran gestionados por una API d
                 <a className="btn" href="#project-movies" rel="noopener noreferrer">
                   Proximamente
                 </a>
-{/*                 <a className="btn" href="/project-2" target="_blank" rel="noopener noreferrer">
+                <a className="btn" href="/project-2" target="_blank" rel="noopener noreferrer">
                   Repositorio
-                </a> */}
+                </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

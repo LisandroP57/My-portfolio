@@ -30,7 +30,8 @@ const ContactForm = () => {
         className="contact-form"
         sx={{ mx: "auto", p: 2 }}>
         <Typography variant="h3" align="center" mb={2}>
-          Mi curriculum !
+          Pongamonos en contacto! <br></br>
+          A continuacion dejo mi curriculums con toda la info disponible y redes para ponernos en contacto! Gracias por pasar.
         </Typography>
         <div className="cv-option">
             <a href="https://drive.google.com/file/d/1WQmnXuLk6_46Gy29ayFfjAfM8qLFonpU/view?usp=drive_link" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
