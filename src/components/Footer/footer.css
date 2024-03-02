@@ -1,0 +1,169 @@
+.bodyfoot {
+    font-size:large;
+    margin: 0;
+    background: #08162c;
+    font-family: "Euclid Circular A", "Poppins";
+    color: #a0a8bd;
+  }
+  
+  :root {
+    --color-title: #ffffff;
+  }
+  
+  .footerprincipal {
+    position:relative;
+    left: 0;
+    bottom: 12px;
+    width: 100%;
+    background: #08162c;
+    padding-top: 45px;
+  }
+  
+  .bodyfoot section.top > img {
+    height: 50px;
+    margin: 0 auto 50px;
+  }
+  
+  .bodyfoot section {
+    position: relative;
+    margin: 0 30px;
+  }
+  
+  .bodyfoot section.top {
+    display: grid;
+    border-bottom: 2px solid rgb(255 255 255 / 20%);
+    padding-bottom: 20px;
+  }
+  
+  .bodyfoot section.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    gap: 8px;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .bodyfoot section.top .links {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin-bottom: 36px;
+  }
+  
+  .links-column {
+    display: grid;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .bodyfoot section h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-title);
+  }
+  
+  .bodyfoot section p {
+    margin: 0;
+  }
+  
+  .legal > a {
+    margin: 0 0 0 4px;
+  }
+  
+  .legal,
+  .copyright {
+    font-size: 12px;
+  }
+  
+  .legal > span {
+    margin-right: 10px;
+  }
+  
+  .bodyfoot section.top .socials {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    translate: -50% 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 56px;
+  }
+  
+  .bodyfoot section.top .socials > a {
+    font-size: 20px;
+    background: rgb(45 118 232 / 25%);
+    color: var(--color-title);
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+  }
+  .bodyfoot section.top .socials > a:hover {
+    width: 38px;
+    height: 38px;
+  }
+  
+  .socials-column :is(h2, p) {
+    display: none;
+  }
+  .links-column a:hover{
+    color: #ffffff;
+  }
+  
+  @media (width > 400px) {
+    .links-column {
+      text-align: left;
+    }
+  
+    .bodyfoot section.top .links {
+      grid-template-columns: repeat(2, 1fr);
+      margin-right: 50px;
+    }
+  
+    .bodyfoot section.bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 20px;
+      text-align: left;
+    }
+  
+    .bodyfoot section.top .socials {
+      left: 0;
+      translate: 0;
+    }
+  
+    .bodyfoot section.top > img {
+      margin: 0 0 50px;
+    }
+  }
+  
+  @media (width >= 640px) {
+    .bodyfoot section {
+      margin: 0 auto;
+      max-width: 580px;
+      padding: 0;
+    }
+  
+    .bodyfoot section.top .links {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .bodyfoot section.top .socials {
+      position: static;
+    }
+  
+    .bodyfoot section.bottom {
+      justify-content: flex-start;
+    }
+  
+    .socials-column :is(h2, p) {
+      display: block;
+    }
+  }

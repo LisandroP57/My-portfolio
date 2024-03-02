@@ -51,7 +51,7 @@ const NavContainer = styled.nav`
     }
   }
   padding: .5rem 3rem;
-  background-color: #333;
+  background-color: #0e2953;
   display: flex;
   align-items: center;
   justify-content: space-between;
