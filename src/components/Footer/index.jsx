@@ -40,11 +40,11 @@ export const Footer = ({autor}) => {
                         </div>
                         <div class="links-column">
                             <h2>Más</h2>
-                            <Link to="/contact">Contacto</Link>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lisandropalavecino1@gmail.com">Contactémonos</a>
                             <Link to="https://drive.google.com/file/d/1WQmnXuLk6_46Gy29ayFfjAfM8qLFonpU/view">CV Español</Link>
-                            <Link to="https://drive.google.com/file/d/1JrhcQ7zzeDd1aYXLAWSVmOFXI3FstEWR/view">CV Ingles</Link>
+                            <Link to="https://drive.google.com/file/d/1JrhcQ7zzeDd1aYXLAWSVmOFXI3FstEWR/view">CV Inglés</Link>
                         </div>
-                        <div class="links-column socials-column">
+                        <div id="footer" class="links-column socials-column">
                             <h2>Redes Sociales</h2>
                             <p>
                             Seguíme en las redes sociales para ver más y poder estar comunicados!

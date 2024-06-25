@@ -4,6 +4,13 @@ import styled from 'styled-components';
 import avatar from "../../assets/avatar.png";
 
 function Navbar() {
+  const scrollToFooter = () => {
+    const footerElement = document.getElementById('footer');
+    if (footerElement) {
+      footerElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
       <NavContainer>
@@ -15,7 +22,7 @@ function Navbar() {
           <Link to="/">About me</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/skills">Skills</Link>
-          <Link to="/contact">Contact</Link>
+          <Link onClick={scrollToFooter}>Contact</Link>
         </div>
         <div class="burguer-menu">
             <div class="navigation">
@@ -25,7 +32,7 @@ function Navbar() {
                     <Link to="/">About</Link><hr></hr>
                     <Link to="/projects">Projects</Link><hr></hr>
                     <Link to="/skills">Skills</Link><hr></hr>
-                    <Link to="/contact">Contact</Link><hr></hr>
+                    <Link onClick={scrollToFooter}>Contact</Link><hr></hr>
                   </div>
                 </div>
             </div>
